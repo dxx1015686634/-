@@ -74,22 +74,20 @@ $(function(){
 	$(".page1-building").fadeIn(4000,function(){
 		$(".page1-flight").animate({width:"70%"},{duration:4000})
 	});
- 
+ $(".musicbtn").click(function(){
+	var music=$("#music")[0];//document.getelementbyid("#.music")
+	if(music.paused){
+		music.play();
+		$(this).attr("src","img/musicBtn.png");
+	}else{
+		music.pause();
+		$(this).attr("src","img/musicBtnOff.png");
+	}
+	
+});
 })
   
 //$(document).ready(function(){
 //	
 //})
 
-$(".musicbtn").click(function(){
-	var music=$("#music")[0];//document.getelementbyid("#.music")
-	if(music.paused){
-		music.play();
-		$(this).attr("src","img/musicBtn.png");
-	}
-	else{
-		music.pause;
-		$(this).attr("src","img/musicBtnOff.png");
-	}
-	
-})
