@@ -80,3 +80,16 @@ $(function(){
 //$(document).ready(function(){
 //	
 //})
+
+$(".musicbtn").click(function(){
+	var music=$("#music")[0];//document.getelementbyid("#.music")
+	if(music.paused){
+		music.play();
+		$(this).attr("src","img/musicBtn.png");
+	}
+	else{
+		music.pause;
+		$(this).attr("src","img/musicBtnOff.png");
+	}
+	
+})
