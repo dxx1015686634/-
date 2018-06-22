@@ -1,0 +1,220 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.content{
+	 position: absolute;
+	 /*top: -200%;*/
+}
+.page{
+	/*相对定为*/
+	position: relative;
+	
+}
+img{
+	position: absolute;
+}
+.page1{
+	background: #00ccff;
+}
+.page1-building{
+	width: 100%;
+	height: 30%;
+	bottom: 0;
+	z-index: 1;
+	display: none;
+}
+.page1-elements{
+	width: 100%;
+	height: 100%;
+	animation: zooming 2s linear infinite;
+}
+.page1-cloud{
+	width: 90%;
+	height: 90%;
+	animation: zooming 2s linear infinite;
+}
+@keyframes zooming{
+	0%{transform: scale(1);}
+	50%{transform: scale(0.9);}
+	100%{transform: scale(1);}
+}
+.page1-flight{
+	width: 0px;
+	/*height:30%;*/
+	bottom: 30%;
+	left: 10%;
+	animation: flight 2s linear infinite;
+}
+@keyframes flight{
+	0%{transform: scale(1);}
+	50%{transform: scale(1.2);
+	100%{transform: scale(1);}
+}
+}
+.page1-flowers01{
+	width: 20%;
+	height: 10%;
+	left: 10%;
+	top: 10%;
+	z-index: 1;
+	animation: rotate 3s linear infinite;
+}
+.page1-flowers02{
+	width: 20%;
+	height: 10%;
+	right: 20%;
+	top: 20%;
+	z-index: 1;
+	animation: rotate 3s linear infinite;
+}
+@keyframes rotate{
+	0%{transform: rotate(0deg);}
+	25%{transform: rotate(30deg);}
+	50%{transform: rotate(0deg);}
+	75%{transform: rotate(-30deg);}
+	100%{transform: rotate(0deg);}
+}
+.page1-stars{
+	width: %5;
+	height: 5%;
+}
+.page1-txt{
+	width: 60%;
+	height: 20%;
+	top: 10%;
+	left: 20%;
+	
+}
+.page2{
+	background: aquamarine;
+}
+.page2-bg{
+	width: 100%;
+	height:100%;
+}
+.page2-farm{
+	width: 50%;
+	height: 10%;
+  right: 0;
+  top: 20%;
+  display: none;
+}
+.page2-it{
+	width: 50%;
+	height: 10%;
+  right: 0;
+  bottom: 20%;
+  display: none;
+}
+.page2-star{}
+.page3{
+	background: blue;
+}
+.page3-avatar{
+	z-index: 2;
+	bottom: 15%;
+	width: 30%;
+	right: 10%;
+	
+}
+.page3-bus{
+	z-index: 2;
+	width: 60%;
+		bottom:10%;
+}
+.page3-building{
+	display:none;
+}
+.page3-earlytitle{
+	  width: 40%;
+	  z-index: 2;
+	  display: none;
+}
+.page3-lasttitle{
+	z-index: 2;
+	width: 40%;
+	top:15%;
+	display: none;
+}
+.page3-station{
+	z-index: 1;
+	width: 100%;
+	height:65%;
+	bottom:0;
+}
+.page3-bg{
+	width: 100%;
+	height: 100%;
+	
+}
+.page3-myteamavatar{
+	height: 20%;
+	right: 0%;
+	top: 14.5%;
+	display: none;
+}
+.page3-space{
+	top: 12%;
+	left: 10%;
+	width: 0px;
+	
+}
+.page3-txt{
+	bottom: 0;
+	width: 0px;
+	height: 20%;
+	left: 20%;
+
+}
+
+.page3-wall{
+	right:0;
+	width:20%;
+	height: 70%;
+	bottom: 0;
+	z-index: 2;
+	display: none;
+}
+.page4{
+	background: saddlebrown;
+}
+.page4-lightoff{
+height: 70%;
+	bottom: 0;
+	left: 10%;
+	z-index: 2;
+}
+.page4-lightoffbg{
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+}
+.page4-cornertitle{
+	width: 30%;
+	right: 0;
+	top: 13%;
+	z-index: 2;
+}
+.page4-lighton{
+height: 70%;
+	bottom: 0;
+	left: 10%;
+    z-index: 1;
+
+}
+.page4-lightonbg{
+	width: 100%;
+	height: 100%;
+	
+	
+}
+.page4-click{
+	width: 70%;
+	top: 40%;
+	left: 20%;
+	animation: zooming 2s linear infinite;
+	z-index: 2;
+}
+.page4-weknowyou{
+}
